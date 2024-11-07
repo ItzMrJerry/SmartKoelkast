@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\TestProject.csproj": {}
+    "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\TestProject.csproj": {
+    "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\TestProject.csproj",
+        "projectPath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\obj\\",
+        "outputPath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",

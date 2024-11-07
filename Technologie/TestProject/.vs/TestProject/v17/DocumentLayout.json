@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jerry\\source\\repos\\TestProject\\",
+  "WorkspaceRootPath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|c:\\users\\jerry\\source\\repos\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\Program.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
               "RelativeDocumentMoniker": "TestProject\\Program.cs",
-              "ToolTip": "C:\\Users\\jerry\\source\\repos\\TestProject\\TestProject\\Program.cs",
+              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
               "RelativeToolTip": "TestProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
