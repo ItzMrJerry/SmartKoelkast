@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\daang\\source\\repos\\SmartKitchen\\",
+  "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\daang\\source\\repos\\smartkitchen\\smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\gebruiker\\documents\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\arduinoconnectie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\arduinoconnectie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\daang\\source\\repos\\SmartKitchen\\SmartKitchen\\Form1.cs",
-              "RelativeDocumentMoniker": "SmartKitchen\\Form1.cs",
-              "ToolTip": "C:\\Users\\daang\\source\\repos\\SmartKitchen\\SmartKitchen\\Form1.cs [Design]",
-              "RelativeToolTip": "SmartKitchen\\Form1.cs [Design]",
+              "Title": "ArduinoConnectie.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\ArduinoConnectie.cs",
+              "RelativeDocumentMoniker": "SmartKitchen\\ArduinoConnectie.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\ArduinoConnectie.cs",
+              "RelativeToolTip": "SmartKitchen\\ArduinoConnectie.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:42:34.99Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-06T09:19:49.385Z",
+              "EditorCaption": ""
             }
           ]
         }
