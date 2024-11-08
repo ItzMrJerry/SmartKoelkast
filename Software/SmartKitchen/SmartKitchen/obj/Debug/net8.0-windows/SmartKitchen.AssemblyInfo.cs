@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartKitchen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3892710a7fe1b5027e2d5e4010f60bca55926def")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c675b00e5bfaefd7402c7638459d47724680a1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartKitchen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartKitchen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

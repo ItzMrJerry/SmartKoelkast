@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Ports;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO.Ports;
-using System.Security;
 
 namespace SmartKitchen
 {
@@ -12,11 +12,16 @@ namespace SmartKitchen
     {
         private SerialPort serialPort;
 
-       public ArduinoConnectie(string portName, int baudRate)
-       {
+        public event Action UpCommandReceived;
+        public event Action DownCommandReceived;
+        public event Action minusCommandReceived;
+        public event Action plusCommandReceived;
+
+        public ArduinoConnectie(string portName, int baudRate)
+        {
             serialPort = new SerialPort(portName, baudRate);
-            serialPort.DataReceived += OnDataReceived;
-       }
+            serialPort.DataReceived += DataReceived2;
+        }
 
         public void OpenConnection()
         {
@@ -25,13 +30,12 @@ namespace SmartKitchen
                 if (!serialPort.IsOpen)
                 {
                     serialPort.Open();
-                    Console.WriteLine("Connected to arduino on " + serialPort.PortName);
                 }
             }
 
             catch (Exception ex)
             {
-                Console.WriteLine("Error connecting arduino. " + ex.Message);
+                MessageBox.Show("Error connecting arduino. " + ex.Message);
             }
         }
 
@@ -40,34 +44,30 @@ namespace SmartKitchen
             if (serialPort.IsOpen)
             {
                 serialPort.Close();
-                Console.WriteLine("Disconnected from arduino");
             }
         }
 
-        private void OnDataReceived(object sender, SerialDataReceivedEventArgs e)
+        private void DataReceived2(object sender, SerialDataReceivedEventArgs e)
         {
-            try
+            string command = serialPort.ReadLine().Trim();
+
+            // Roep het juiste evenement aan op basis van het commando
+            if (command == "UP" && UpCommandReceived != null)
             {
-                string data = serialPort.ReadLine();
-                Console.WriteLine("Received: " + data);
+                UpCommandReceived.Invoke();
             }
-            catch (Exception ex)
+            else if (command == "DOWN" && DownCommandReceived != null)
             {
-                Console.WriteLine("Error reading data " + ex);
+                DownCommandReceived.Invoke();
+            }
+            else if (command == "-" && minusCommandReceived != null)
+            {
+                minusCommandReceived.Invoke();
+            }
+            else if (command == "+" && plusCommandReceived != null)
+            {
+                plusCommandReceived.Invoke();
             }
         }
-
-        public void SendData(string data)
-        {
-            if (serialPort.IsOpen)
-            {
-                serialPort.WriteLine(data);
-            }
-            else
-            {
-                Console.WriteLine("Port is not open");
-            }
-        }
-
     }
 }
