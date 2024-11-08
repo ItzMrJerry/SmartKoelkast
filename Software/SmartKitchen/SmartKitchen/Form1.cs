@@ -1,4 +1,6 @@
 using MySql.Data.MySqlClient;
+using System.Data.Common;
+using System.Xml.Linq;
 
 namespace SmartKitchen
 {
@@ -14,12 +16,33 @@ namespace SmartKitchen
             arduinoConnectie = new ArduinoConnectie("COM3", 9600); // Zorg ervoor dat "COM3" overeenkomt met je Arduino-poort
             arduinoConnectie.UpCommandReceived += MoveUpInListBox;
             arduinoConnectie.DownCommandReceived += MoveDownInListBox;
+            arduinoConnectie.plusCommandReceived += PlusOneListBox;
+            arduinoConnectie.minusCommandReceived += MinusOneListBox;
 
             // Open de seriële verbinding
             arduinoConnectie.OpenConnection();
         }
 
         List<string> result = new List<string>();
+
+        private void UpdateListBox()
+        {
+            using (var dbConnector = new DatabaseConnection())
+            {
+                string query1 = "SELECT * FROM medewerkers";
+                var (namen, hoeveelheid) = dbConnector.ExecuteQuery(query1, "naam", "hoeveelheid");
+
+                for (int i = 0; i < namen.Count; i++)
+                {
+                    if (namen[i] == "")
+                    {
+                        break;
+                    }
+
+                    lb_producten.Items.Add($"{namen[i]} - {hoeveelheid[i]}");
+                }
+            }
+        }
 
         private void HomePage_Load(object sender, EventArgs e)
         {
@@ -100,6 +123,84 @@ namespace SmartKitchen
                 if (lb_producten.SelectedIndex < lb_producten.Items.Count - 1)
                 {
                     lb_producten.SelectedIndex++;
+                }
+            }
+        }
+
+        private void PlusOneListBox()
+        {
+            if(lb_producten.InvokeRequired)
+            {
+                lb_producten.Invoke(new Action(PlusOneListBox));
+            }
+
+            else
+            {
+                int geselecteerdeIndex = lb_producten.SelectedIndex;
+
+                using (var dbConnector = new DatabaseConnection())
+                {
+                    string query = "SELECT * FROM medewerkers";
+                    var (namen, hoeveelheid) = dbConnector.ExecuteQuery(query, "naam", "hoeveelheid");
+
+                    if (geselecteerdeIndex < 0 || geselecteerdeIndex >= hoeveelheid.Count)
+                    {
+                        return; 
+                    }
+
+                    int geselecteerdeWaarde = hoeveelheid[geselecteerdeIndex];
+                    geselecteerdeWaarde++;
+
+                    string geselecteerdeNaam = namen[geselecteerdeIndex];
+
+                    dbConnector.UpdateDatabase(geselecteerdeNaam, geselecteerdeWaarde);
+
+                    lb_producten.Items.Clear();
+
+                    UpdateListBox();
+
+                    lb_producten.SelectedIndex = geselecteerdeIndex;
+                }
+            }
+        }
+
+        private void MinusOneListBox()
+        {
+            if (lb_producten.InvokeRequired){
+                lb_producten.Invoke(new Action(MinusOneListBox));
+            }
+
+            else
+            {
+                int geselecteerdeIndex = lb_producten.SelectedIndex;
+
+                using (var dbConnector = new DatabaseConnection())
+                {
+                    string query = "SELECT * FROM medewerkers";
+                    var (namen, hoeveelheid) = dbConnector.ExecuteQuery(query, "naam", "hoeveelheid");
+
+                    if (geselecteerdeIndex < 0 || geselecteerdeIndex >= hoeveelheid.Count)
+                    {
+                        return;
+                    }
+
+                    int geselecteerdeWaarde = hoeveelheid[geselecteerdeIndex];
+                    geselecteerdeWaarde--;
+                    if(geselecteerdeWaarde <= 0)
+                    {
+                        geselecteerdeWaarde = 0;
+                        //verwijder product
+                    }
+
+                    string geselecteerdeNaam = namen[geselecteerdeIndex];
+
+                    dbConnector.UpdateDatabase(geselecteerdeNaam, geselecteerdeWaarde);
+
+                    lb_producten.Items.Clear();
+
+                    UpdateListBox();
+
+                    lb_producten.SelectedIndex = geselecteerdeIndex;
                 }
             }
         }

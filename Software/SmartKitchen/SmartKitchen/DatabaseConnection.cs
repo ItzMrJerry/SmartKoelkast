@@ -72,6 +72,28 @@ namespace SmartKitchen
             return (result, hoeveelheid);
         }
 
+        public void UpdateDatabase(string naam, int getal)
+        {
+            try
+            {
+                OpenConnection();
+                string query = "UPDATE medewerkers SET hoeveelheid = @getal WHERE naam = @naam";
+                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                cmd.Parameters.AddWithValue("@getal", getal);
+                cmd.Parameters.AddWithValue("@naam", naam);
+                cmd.ExecuteNonQuery();
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Fout bij het uitvoeren van de query: {ex.Message}");
+            }
+
+            finally
+            {
+                CloseConnection();
+            }
+        }
+
         public void Dispose()
         {
             //throw new NotImplementedException();
