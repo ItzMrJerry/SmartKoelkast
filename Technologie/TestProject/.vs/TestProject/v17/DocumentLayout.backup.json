@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\streamresponefromprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\streamresponefromprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\streamresponefromprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\streamresponefromprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StreamResponeFromPrompt.cs",
               "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\StreamResponeFromPrompt.cs",
               "RelativeDocumentMoniker": "TestProject\\StreamResponeFromPrompt.cs",
               "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\StreamResponeFromPrompt.cs",
               "RelativeToolTip": "TestProject\\StreamResponeFromPrompt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:35:16.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T09:35:16.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
               "RelativeDocumentMoniker": "TestProject\\Program.cs",
@@ -55,7 +54,8 @@
               "RelativeToolTip": "TestProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:39:17.025Z"
+              "WhenOpened": "2024-11-07T13:39:17.025Z",
+              "EditorCaption": ""
             }
           ]
         }
