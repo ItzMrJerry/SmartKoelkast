@@ -27,6 +27,7 @@ namespace SmartKitchen
 
         private void UpdateListBox()
         {
+            lb_producten.Items.Clear();
             using (var dbConnector = new DatabaseConnection())
             {
                 string query1 = "SELECT * FROM medewerkers";
@@ -57,7 +58,7 @@ namespace SmartKitchen
                     string query = "SELECT * FROM medewerkers";
                     var (namen, hoeveelheid) = dbConnector.ExecuteQuery(query, "naam", "hoeveelheid");
 
-                    for(int i = 0; i < namen.Count; i++)
+                    for (int i = 0; i < namen.Count; i++)
                     {
                         if (namen[i] == "")
                         {
@@ -72,6 +73,11 @@ namespace SmartKitchen
                 {
                     MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
                 }
+            }
+
+            if (lb_producten.Items.Count != 0)
+            {
+                lb_producten.SelectedIndex = 0;
             }
         }
 
@@ -129,7 +135,7 @@ namespace SmartKitchen
 
         private void PlusOneListBox()
         {
-            if(lb_producten.InvokeRequired)
+            if (lb_producten.InvokeRequired)
             {
                 lb_producten.Invoke(new Action(PlusOneListBox));
             }
@@ -145,7 +151,7 @@ namespace SmartKitchen
 
                     if (geselecteerdeIndex < 0 || geselecteerdeIndex >= hoeveelheid.Count)
                     {
-                        return; 
+                        return;
                     }
 
                     int geselecteerdeWaarde = hoeveelheid[geselecteerdeIndex];
@@ -166,7 +172,8 @@ namespace SmartKitchen
 
         private void MinusOneListBox()
         {
-            if (lb_producten.InvokeRequired){
+            if (lb_producten.InvokeRequired)
+            {
                 lb_producten.Invoke(new Action(MinusOneListBox));
             }
 
@@ -186,7 +193,7 @@ namespace SmartKitchen
 
                     int geselecteerdeWaarde = hoeveelheid[geselecteerdeIndex];
                     geselecteerdeWaarde--;
-                    if(geselecteerdeWaarde <= 0)
+                    if (geselecteerdeWaarde <= 0)
                     {
                         geselecteerdeWaarde = 0;
                         //verwijder product

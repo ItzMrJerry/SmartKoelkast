@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace SmartKitchen
 {
@@ -55,7 +56,6 @@ namespace SmartKitchen
                     {
                         result.Add(reader.IsDBNull(reader.GetOrdinal(kolomnaam1)) ? "" : reader[kolomnaam1].ToString());
                         hoeveelheid.Add(reader.IsDBNull(reader.GetOrdinal(kolomnaam2)) ? 0 : Convert.ToInt32(reader[kolomnaam2]));
-
                     }
                 }
             }
@@ -84,6 +84,29 @@ namespace SmartKitchen
                 cmd.ExecuteNonQuery();
             }
             catch (MySqlException ex)
+            {
+                MessageBox.Show($"Fout bij het uitvoeren van de query: {ex.Message}");
+            }
+
+            finally
+            {
+                CloseConnection();
+            }
+        }
+
+        public void AddProduct(string naam, int hoeveelheid)
+        {
+            try
+            {
+                OpenConnection();
+                string query = "INSERT INTO medewerkers (naam, hoeveelheid) VALUES (@naam, @hoeveelheid)";
+                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                cmd.Parameters.AddWithValue("@hoeveelheid", hoeveelheid);
+                cmd.Parameters.AddWithValue("@naam", naam);
+                cmd.ExecuteNonQuery();
+            }
+
+            catch(MySqlException ex)
             {
                 MessageBox.Show($"Fout bij het uitvoeren van de query: {ex.Message}");
             }
