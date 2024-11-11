@@ -14,7 +14,7 @@ namespace OllamaAPI
 {
     public class StreamResponeFromPrompt
     {
-        private static readonly string url = "http://192.168.137.1:11434/api/generate";
+        private static readonly string url = "http://172.22.192.1:11434/api/generate";
         public static string model = "llama3.2:3b";
 
         public class OllamaRequest
