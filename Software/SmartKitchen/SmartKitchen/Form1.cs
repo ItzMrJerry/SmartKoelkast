@@ -13,7 +13,7 @@ namespace SmartKitchen
             InitializeComponent();
 
             // Instantieer de ArduinoConnection en sluit evenementen aan
-            arduinoConnectie = new ArduinoConnectie("COM3", 9600); // Zorg ervoor dat "COM3" overeenkomt met je Arduino-poort
+            arduinoConnectie = new ArduinoConnectie("COM5", 9600); // Zorg ervoor dat "COM3" overeenkomt met je Arduino-poort
             arduinoConnectie.UpCommandReceived += MoveUpInListBox;
             arduinoConnectie.DownCommandReceived += MoveDownInListBox;
             arduinoConnectie.plusCommandReceived += PlusOneListBox;

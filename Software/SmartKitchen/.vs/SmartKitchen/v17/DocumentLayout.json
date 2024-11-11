@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\",
+  "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\daang\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\gebruiker\\documents\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\smartkitchen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\smartkitchen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\gebruiker\\documents\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\daang\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\gebruiker\\documents\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\smartkitchen.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\smartkitchen.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|c:\\users\\gebruiker\\documents\\github\\smartkoelkast\\software\\smartkitchen\\smartkitchen\\arduinoconnectie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\arduinoconnectie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DCCA0549-055B-4033-8D9C-D74D314E3A9A}|SmartKitchen\\SmartKitchen.csproj|solutionrelative:smartkitchen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,40 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SmartKitchen",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\SmartKitchen.csproj",
+              "RelativeDocumentMoniker": "SmartKitchen\\SmartKitchen.csproj",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\SmartKitchen.csproj",
+              "RelativeToolTip": "SmartKitchen\\SmartKitchen.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T09:53:48.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartKitchen",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\SmartKitchen.csproj",
+              "RelativeDocumentMoniker": "SmartKitchen\\SmartKitchen.csproj",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\SmartKitchen.csproj",
+              "RelativeToolTip": "SmartKitchen\\SmartKitchen.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T09:49:28.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArduinoConnectie.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\ArduinoConnectie.cs",
+              "RelativeDocumentMoniker": "SmartKitchen\\ArduinoConnectie.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\ArduinoConnectie.cs",
+              "RelativeToolTip": "SmartKitchen\\ArduinoConnectie.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:18:27.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
               "RelativeDocumentMoniker": "SmartKitchen\\Form1.cs",
-              "ToolTip": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
               "RelativeToolTip": "SmartKitchen\\Form1.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAL4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:39:46.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs",
               "RelativeDocumentMoniker": "SmartKitchen\\Form1.cs",
-              "ToolTip": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\Form1.cs [Design]",
               "RelativeToolTip": "SmartKitchen\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:39:30.175Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "SmartKitchen\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\daang\\Github\\SmartKoelkast\\Software\\SmartKitchen\\SmartKitchen\\DatabaseConnection.cs",
-              "RelativeToolTip": "SmartKitchen\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAMwFQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:24:25.794Z",
-              "EditorCaption": ""
             }
           ]
         }
