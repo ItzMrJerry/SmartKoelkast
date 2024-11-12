@@ -1,0 +1,5 @@
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\publish\TestProject
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\publish\TestProject.dll
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\publish\TestProject.deps.json
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\publish\TestProject.runtimeconfig.json
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\publish\TestProject.pdb

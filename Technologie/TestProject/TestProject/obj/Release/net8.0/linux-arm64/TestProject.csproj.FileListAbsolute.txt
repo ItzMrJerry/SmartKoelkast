@@ -1,0 +1,15 @@
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\TestProject
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\TestProject.deps.json
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\TestProject.runtimeconfig.json
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\TestProject.dll
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\bin\Release\net8.0\linux-arm64\TestProject.pdb
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.AssemblyInfoInputs.cache
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.AssemblyInfo.cs
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.csproj.CoreCompileInputs.cache
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.sourcelink.json
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.dll
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\refint\TestProject.dll
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.pdb
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\TestProject.genruntimeconfig.cache
+D:\GithubProjects\SmartKoelkast\Technologie\TestProject\TestProject\obj\Release\net8.0\linux-arm64\ref\TestProject.dll

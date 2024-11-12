@@ -1,0 +1,31 @@
+It seems like the --host flag is not available for binding to a specific IP, but there is an environment variable you can set instead, OLLAMA_HOST, to specify the IP address that Ollama should listen on.
+
+Solution:
+You can try setting the OLLAMA_HOST environment variable to 0.0.0.0, which will allow Ollama to listen on all available network interfaces (including your local network IP).
+
+Steps:
+Open a terminal or command prompt.
+
+Set the environment variable:
+
+On Windows:
+
+bash
+Copy code
+set OLLAMA_HOST=0.0.0.0:11434
+After setting this variable, start Ollama:
+
+bash
+Copy code
+ollama serve
+This should bind Ollama to all network interfaces, making it accessible from other devices on the network (including your Raspberry Pi).
+
+Testing:
+On your laptop, you can now test if the server is running with the following curl command:
+
+bash
+Copy code
+curl http://192.168.137.1:11434/api/generate -X POST -H "Content-Type: application/json" -d '{"prompt": "Hello, Ollama!"}'
+On your Raspberry Pi, use the same command to send a request to your laptop's IP.
+
+Let me know if this works or if you encounter any other issues!
