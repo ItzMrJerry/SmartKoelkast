@@ -1,0 +1,244 @@
+/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #CAD4D6;
+    color: #4F614B;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* background-color: #2E2E2E; */
+}
+
+.navbar-logo {
+    width: 18em;
+    height: auto;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-menu li {
+    margin: 0;
+}
+
+.nav-link {
+    background-color: #4F614B;
+    color: #EAD8B1;
+    padding: 0.55em 0.75em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 2em;
+    transition: background-color 0.3s;
+    margin-right: 0.3em;
+}
+
+.nav-link:hover {
+    background-color: #6A7D5F;
+}
+
+.order-btn {
+    background-color: #BDA45C;
+    font-size: 2em;
+    color: #4F614B;
+    padding: 0.6em 0.8em;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 0.3em;
+}
+
+.order-btn:hover {
+    background-color: #BDA45C;
+    color: #EAD8B1;
+}
+
+/* Content Layout Styles */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%; /* Limit max width for better alignment (AI edited) */
+    margin: 0 auto; /* Center content horizontally (AI edited) */
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px; /* Add padding between text and image (AI edited) */
+    text-align: left; /* Align text to the left (AI edited) */
+}
+
+.text-content h1 {
+    font-size: 2.5em; /* Increase font size slightly for emphasis (AI edited) */
+    color: #2E2E2E;
+    margin-bottom: 20px; /* Increase bottom margin for spacing (AI edited) */
+}
+
+.text-content p {
+    font-size: 1.2em; /* Slightly larger font size for readability (AI edited) */
+    color: #4F614B;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #4F614B;
+    object-fit: cover; /* Ensures image retains aspect ratio (AI edited) */
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: RGBA(79, 97, 75, 0.5);
+    width: fit-content;
+    margin-bottom: 0.5em;
+}
+
+.footer p {
+    font-size: 1.5em;
+    color: #EAD8B1;
+}
+/* About Page Specific Styles */
+.about-heading {
+    font-size: 2.5em; /* Groter font voor 'Over ons' koptekst (AI edited) */
+    color: #2E2E2E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 1.2em; /* Kleinere tekstgrootte voor normale paragraaf (AI edited) */
+    color: #4F614B;
+    margin-bottom: 30px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Team Section Styles */
+.team-container {
+    display: flex; /* Flexbox voor de teamleden (AI edited) */
+    justify-content: center;
+    flex-wrap: wrap; /* Zorgt ervoor dat de items naar een nieuwe regel gaan indien nodig */
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-member {
+    text-align: center;
+    flex: 1 1 150px; /* Flex-item met minimale breedte van 150px (AI edited) */
+    max-width: 200px;
+}
+
+.team-member img {
+    width: 100%; /* Laat de afbeelding de breedte van de container gebruiken */
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #4F614B;
+    background-color: #f0f0f0;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #4F614B;
+}
+
+/* Order Page Specific Styles */
+.order-content {
+    display: flex; /* Flexbox layout for form and image (AI edited) */
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding: 40px;
+    gap: 30px;
+}
+
+.order-form {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.order-form label {
+    font-size: 1.5em;
+    color: #4F614B;
+    margin-top: 0.8em;
+}
+
+.order-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #BDA45C;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #4F614B;
+    outline: none;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+}
+
+.confirm-btn {
+    background-color: #BDA45C;
+    color: #4F614B;
+    padding: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 0.8em;
+}
+
+.confirm-btn:hover {
+    background-color: #a28f4c;
+}
+
+.order-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.order-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #4F614B;
+}
