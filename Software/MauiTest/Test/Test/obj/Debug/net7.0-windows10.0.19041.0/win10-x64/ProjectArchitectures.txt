@@ -1,1 +1,1 @@
-C:\Users\daang\source\repos\Test\Test\Test.csproj;x64
+C:\Users\daang\Github\SmartKoelkast\Software\MauiTest\Test\Test\Test.csproj;x64
