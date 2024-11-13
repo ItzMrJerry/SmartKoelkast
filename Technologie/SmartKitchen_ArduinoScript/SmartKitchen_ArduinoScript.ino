@@ -1,7 +1,3 @@
-  #include <SoftwareSerial.h>
-
-  SoftwareSerial SoftSerial(0,1);
-  
   int joystick_axis_x = A0;
   int joystick_axis_y = A1;
   int up_button = 2;
@@ -30,15 +26,12 @@
   int xCenter = 350;
   int yCenter = 350;
   void setup() {
-    for (int i; i < 4; i++)
+    for (int i; i < 7; i++)
     {
     pinMode(buttons[i], INPUT);
     digitalWrite(buttons[i], HIGH);
     }
-    //+6+666
-    +++++Serial.begin(9600);
-
-    SoftSerial.begin(9600);
+    Serial.begin(9600);
   }
 
   void loop() {
@@ -69,33 +62,28 @@
     currentDirection = RIGHT;
   }
 
-   if (currentDirection != lastDirection || (millis() - lastSendTime >= sendInterval && currentDirection != CENTER)) {
-    String message;
+  // Check if the direction has changed or enough time has passed to send it again
+  if (currentDirection != lastDirection || (millis() - lastSendTime >= sendInterval && currentDirection != CENTER)) {
     switch (currentDirection) {
       case UP:
-        message = "Up";
+        Serial.println("Up");
         break;
       case DOWN:
-        message = "Down";
+        Serial.println("Down");
         break;
       case LEFT:
-        message = "Left";
+        Serial.println("Left");
         break;
       case RIGHT:
-        message = "Right";
+        Serial.println("Right");
         break;
       case CENTER:
-        message = "Center";
+        Serial.println("Center");
         break;
     }
-
-    // Send the message over Bluetooth
-    SoftSerial.println(message);
-    //Serial.println(message); // Also print to Serial Monitor for debugging
-
-    lastSendTime = millis();
+    lastSendTime = millis(); // Update the last send time
     lastDirection = currentDirection;
   }
 
-  delay(10);
+  delay(10); // Small delay to stabilize readings
 }

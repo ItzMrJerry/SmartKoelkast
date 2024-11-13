@@ -1,42 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "df8fXsyz/2k=",
+  "dgSpecHash": "OO8znBNbujY=",
   "success": true,
   "projectFilePath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\TestProject.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jerry\\.nuget\\packages\\32feet.net\\3.5.0\\32feet.net.3.5.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\9.0.0\\runtime.android-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\9.0.0\\runtime.android-x86.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\9.0.0\\runtime.linux-arm.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\9.0.0\\runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\9.0.0\\runtime.linux-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\9.0.0\\runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.native.system.io.ports\\9.0.0\\runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.0\\runtime.osx-x64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.0\\system.configuration.configurationmanager.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.0\\system.diagnostics.eventlog.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\system.io.ports\\9.0.0\\system.io.ports.9.0.0.nupkg.sha512",
-    "C:\\Users\\jerry\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.0\\system.security.cryptography.protecteddata.9.0.0.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package '32feet.NET 3.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "32feet.NET",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [],
+  "logs": []
 }

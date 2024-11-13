@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\bluetoothhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\bluetoothhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\bluetoothtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\bluetoothtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\bluetoothportreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\bluetoothportreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\local_tts_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|solutionrelative:testproject\\local_tts_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBEC4B99-3D4D-4EBC-997F-15D83AE0547F}|TestProject\\TestProject.csproj|d:\\githubprojects\\smartkoelkast\\technologie\\testproject\\testproject\\streamresponefromprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,94 +29,32 @@
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BluetoothHandler.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothHandler.cs",
-              "RelativeDocumentMoniker": "TestProject\\BluetoothHandler.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothHandler.cs",
-              "RelativeToolTip": "TestProject\\BluetoothHandler.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T12:48:24.162Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BluetoothTest.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothTest.cs",
-              "RelativeDocumentMoniker": "TestProject\\BluetoothTest.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothTest.cs",
-              "RelativeToolTip": "TestProject\\BluetoothTest.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAArwBsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T09:39:09.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BluetoothPortReader.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothPortReader.cs",
-              "RelativeDocumentMoniker": "TestProject\\BluetoothPortReader.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\BluetoothPortReader.cs",
-              "RelativeToolTip": "TestProject\\BluetoothPortReader.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:51:41.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
-              "RelativeDocumentMoniker": "TestProject\\Program.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
-              "RelativeToolTip": "TestProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:39:17.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AudioPlayer.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\AudioPlayer.cs",
-              "RelativeDocumentMoniker": "TestProject\\AudioPlayer.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\AudioPlayer.cs",
-              "RelativeToolTip": "TestProject\\AudioPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:33:03.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Local_TTS_API.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Local_TTS_API.cs",
-              "RelativeDocumentMoniker": "TestProject\\Local_TTS_API.cs",
-              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Local_TTS_API.cs",
-              "RelativeToolTip": "TestProject\\Local_TTS_API.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:25:11.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "StreamResponeFromPrompt.cs",
               "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\StreamResponeFromPrompt.cs",
               "RelativeDocumentMoniker": "TestProject\\StreamResponeFromPrompt.cs",
               "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\StreamResponeFromPrompt.cs",
               "RelativeToolTip": "TestProject\\StreamResponeFromPrompt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:35:16.02Z",
+              "WhenOpened": "2024-11-08T09:35:16.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
+              "RelativeDocumentMoniker": "TestProject\\Program.cs",
+              "ToolTip": "D:\\GithubProjects\\SmartKoelkast\\Technologie\\TestProject\\TestProject\\Program.cs",
+              "RelativeToolTip": "TestProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:39:17.025Z",
               "EditorCaption": ""
             }
           ]
