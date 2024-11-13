@@ -1,0 +1,1 @@
+C:\Users\daang\Github\SmartKoelkast\MainProjectFile\MauiTest\MauiTest\Test\Test\Test.csproj;x64
