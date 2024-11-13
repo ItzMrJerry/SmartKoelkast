@@ -1,1 +1,0 @@
-C:\Users\daang\Github\SmartKoelkast\Software\MauiTest\Test\Test\Test.csproj;x64
